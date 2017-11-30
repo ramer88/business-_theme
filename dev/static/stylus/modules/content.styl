@@ -1,0 +1,539 @@
+section.content
+	width 100%
+	max-width 1700px
+	margin 0 auto
+	padding-top 200px
+
+.services-container
+	margin 0 auto
+	text-align center
+	
+.services-title h1
+	color headerColor
+	font-family gothamFont
+	font-size rem(30)
+	text-transform uppercase
+
+.services-desc
+	margin-bottom 93px
+	color #46575c
+	font-size rem(13)
+	line-height 1.5
+	
+.services-features
+	width 100%
+	max-width 1170px
+	margin 0 auto 73px
+	
+.features
+	position relative
+	display inline-block
+	width 100%
+	max-width 500px
+	margin-right 75px
+	padding-left 83px
+	text-align left
+	
+	&:before
+		position absolute
+		top 0
+		left 0
+		content ''
+		display block
+		size(45px,46px)
+		
+.features-icons:before
+	background url('../img/png/service-1.png') 0 0 no-repeat
+	background-size cover
+	
+.features-design:before
+	background url('../img/png/service-2.png') 0 0 no-repeat
+	background-size cover
+	
+.features-working:before
+	background url('../img/png/service-3.png') 0 0 no-repeat
+	background-size cover
+	size(62px,44px)
+	
+.features-retina:before
+	background url('../img/png/service-4.png') 0 0 no-repeat
+	background-size cover
+	size(50px,51px)
+	
+.features-code:before
+	background url('../img/png/service-5.png') 0 0 no-repeat
+	background-size cover
+	size(47px)
+	
+.features-flat:before
+	background url('../img/png/service-6.png') 0 0 no-repeat
+	background-size cover
+	size(31px,55px)
+	
+.features-icons-title,
+.features-design-title,
+.features-working-title,
+.features-retina-title,
+.features-code-title,
+.features-flat-title
+	margin-bottom 24px
+	color headerColor
+	font-family latoBoldFont
+	font-size rem(16)
+	
+.features-icons-desc,
+.features-design-desc,
+.features-working-desc,
+.features-retina-desc,
+.features-code-desc,
+.features-flat-desc
+	margin-bottom 80px
+	color headerDescColor
+	font-size rem(13)
+	
+/* .about-container */
+
+.about-container
+	display flex
+	justify-content center
+	flex-wrap wrap
+	width 100%
+	max-width 1700px
+	margin 0 auto
+	
+.about-left,
+.about-right
+	width 100%
+	max-width 674px
+	color #fff
+
+.about-left
+	background-color orangeColor
+	
+.about-left-pict
+	//size(674px,512px)
+	width 100%
+	max-width 674px
+	height 512px
+	background url('../img/content/about_us.jpg') 0 0 no-repeat
+	background-size cover
+	
+.about-right
+	padding 117px 150px 118px 76px
+	background-color orangeColor
+	
+.about-right-title
+	margin-bottom 28px
+	font-family gothamFont
+	font-size rem(30)
+	text-transform uppercase
+
+.about-right-desc
+	margin-bottom 36px
+	font-size rem(13)
+	line-height 1.9
+
+.about-right-btn
+	padding 16px 32px
+	border-radius 2px
+	border 2px solid btnBorderColor
+	color #fff
+	text-transform uppercase
+	white-space nowrap
+	cursor pointer
+	
+/* prices-container */
+
+.prices-container
+	width 100%
+	max-width 1700px
+	margin 0 auto
+	padding 135px 0 135px
+	background-color pricesContColor
+	
+.prices-title,
+.prices-desc
+	text-align center
+	
+.prices-desc
+	margin-bottom 52px
+	
+.plans-container
+	text-align center
+
+.plan
+	display inline-block
+	width 100%
+	max-width 388px
+	margin-right -4px
+	padding 55px 28px 47px
+	background-color #fff
+	text-align center
+	text-transform uppercase
+	
+.plan.basic
+	border-radius 2px 0 0 2px
+	border-top 1px solid planBorderColor
+	border-bottom 1px solid planBorderColor
+	border-left 1px solid planBorderColor
+	color planTextColor
+	
+.plan.premium
+	padding 85px 28px 78px
+	background-color blueColor
+	color #fff
+
+.plan.gold
+	border-radius 0 2px 2px 0
+	border-top 1px solid planBorderColor
+	border-bottom 1px solid planBorderColor
+	border-right 1px solid planBorderColor
+	color planTextColor
+	
+.plan-title
+	margin-bottom 36px
+	font-family latoLightFont
+	font-size rem(25)
+	
+.price
+	margin-bottom 12px
+
+	span:first-child
+		color orangeColor
+		font-family latoLightFont
+		font-size rem(25)
+		vertical-align top
+		
+	span:last-child
+		color orangeColor
+		font-family latoBoldFont
+		font-size rem(60)
+		
+.premium>.price
+	span
+		color #fff
+
+.period
+	padding-bottom 34px
+	border-bottom 1px solid planUnderliningColor
+	font-family latoLightFont
+	font-size rem(13)
+	
+ul.plan-features
+	li
+		padding 15px 0 15px
+		border-bottom 1px solid planUnderliningColor
+		font-family latoLightFont
+		font-size rem(13)
+	
+	& li:last-child
+		padding-bottom 35px
+		border-bottom none
+		
+.btn-start
+	padding 16px 21px
+	border none
+	border-radius 2px
+	background-color orangeColor
+	color #fff
+	text-transform uppercase
+	cursor pointer
+	
+/* works-container */
+
+.works-container
+	padding 153px 0 150px
+	text-align center
+	
+.works-desc
+	margin-bottom 80px
+	
+.step-container
+	margin-bottom 94px
+	
+.step-pict
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	width 100%
+	max-width 971px
+	margin 0 auto 65px
+	
+.pict-1
+	margin 33px 0 33px
+	size(71px,61px)
+	background url('../img/png/step-1.png') 0 0 no-repeat
+	background-size cover
+	
+.arrows-down
+	size(128px,32px)
+	background url('../img/png/arrow-1.png') 0 0 no-repeat
+	background-size cover
+
+.pict-2
+	margin 33px 0 33px
+	size(51px,66px)
+	background url('../img/png/step-2.png') 0 0 no-repeat
+	background-size cover
+
+.arrows-up
+	margin-top 100px
+	size(129px,33px)
+	background url('../img/png/arrow-2.png') 0 0 no-repeat
+	background-size cover
+
+.pict-3
+	margin 33px 0 33px
+	size(82px,61px)
+	background url('../img/png/step-3.png') 0 0 no-repeat
+	background-size cover
+
+.arrows-down
+	size(128px,32px)
+	background url('../img/png/arrow-1.png') 0 0 no-repeat
+	background-size cover
+
+.pict-4
+	margin 33px 0 33px
+	size(69px,67px)
+	background url('../img/png/step-4.png') 0 0 no-repeat
+	background-size cover
+
+.step
+	display inline-block
+	margin-right 84px
+	
+	&.last
+		margin-right 0
+
+.step-title
+	margin-bottom 30px
+	color headerColor
+	font-family latoBoldFont
+	font-size rem(20)
+	text-align center
+	
+.step-desc
+	width 100%
+	max-width 215px
+	color headerDescColor
+	font-size rem(13)
+	text-align center
+	
+.get_start_now-btn
+	padding 17px 28px
+	border none
+	border-radius 2px
+	background-color orangeColor
+	color #fff
+	text-transform uppercase
+	cursor pointer
+	
+/* clients-container */
+
+.clients-container
+	padding 139px 0 158px
+	color #fff
+	background-color orangeColor
+
+.clients-desc
+	margin-bottom 58px
+	
+.testimonial-container
+	text-align center
+	
+.testimonial
+	display inline-block
+	margin 0 35px 18px 0
+	padding 42px 31px 52px 21px
+	width 100%
+	max-width 568px
+	background-color #fff
+	border-radius 2px
+	
+	&:nth-child(even)
+		margin-right 0
+
+	&:nth-child(odd)
+		margin-bottom 0
+		
+.testimonial-photo
+	display inline-block
+	margin-right 31px
+	size(120px)
+	background-size cover
+	border-radius 50%
+	
+.photo-1
+	background url('../img/content/face-1.jpg') 0 0 no-repeat
+	
+.photo-2
+	background url('../img/content/face-2.jpg') 0 0 no-repeat
+	
+.photo-3
+	background url('../img/content/face-3.jpg') 0 0 no-repeat
+	
+.photo-4
+	background url('../img/content/face-4.jpg') 0 0 no-repeat
+
+.testimonial-coment
+	display inline-block
+	text-align left
+	vertical-align top
+	width 100%
+	max-width 360px
+	color headerDescColor
+	font-size rem(13)
+	line-height 1.5
+	
+.testimonial-sign
+	padding-top 28px
+	span
+		font-family latoRegFont
+		font-size rem(14)
+		text-transform uppercase
+	span:first-child
+		margin-right 4px
+		color comentSignColor1
+
+	span:last-child
+		color comentSignColor2
+		
+/* newsletter-container */
+
+.newsletter-container
+	padding 153px 0 54px
+	
+.newsletter-desc
+	margin-bottom 42px
+	
+.subscribe
+	margin-bottom 52px
+	text-align center
+	input
+		margin-right 10px
+		padding 18px 170px 18px 42px
+		border 1px solid letterInputBorderColor
+		border-radius 2px
+		color iconDescTextColor
+		font-family mainFont
+		font-size rem(14)
+
+		&[type=submit]
+			padding 18px 52px 18px
+			border none
+			background-color orangeColor
+			color #fff
+			text-align center
+			text-transform uppercase
+			cursor pointer
+			
+	.icon
+		position absolute
+		top 18px
+		left 18px
+		size(15px)
+		fill iconDescTextColor
+		z-index 2
+		
+.subscribe-name,
+.subscribe-email,
+.subscribe-quote
+	position relative
+	display inline-block
+	
+.map-container
+	position relative
+	margin-bottom 67px
+	padding-bottom 57px
+	border-bottom 1px solid mapBorderColor
+	text-align center
+
+.map
+	display inline-block
+	size(1102px,549px)
+	background url('../img/content/map.jpg') 0 0 no-repeat
+	background-size cover
+	
+.circle
+	position absolute
+	top 35%
+	left 50%
+	transform translate(-50%,-50%)
+	padding-top 25px
+	size(280px)
+	background-color headerColor
+	border-radius 50%
+	
+	&:after
+		content ''
+		position absolute
+		left 50%
+		bottom -44px
+		transform translate(-50%,-50%)
+		border 10px solid transparent
+		border-top 20px solid headerColor
+	
+ul.address
+	color #fff
+	font-family latoBoldFont
+	
+	li:first-child
+		margin-bottom 21px
+		color #fff
+		font-size rem(20)
+		text-transform uppercase
+		
+	li
+		margin-bottom 14px
+		color circleDescColor
+		font-size rem(14)
+		
+	li:last-child
+		color orangeColor
+		
+.logo-bottom
+	position absolute
+	top 68%
+	left 50%
+	transform translate(-50%,-50%)
+	display block
+	
+.menu-bottom
+	margin-bottom 30px
+	text-align center
+
+.phone
+	margin-bottom 24px
+	text-align center
+	
+	a
+		color headerColor
+		font-family latoRegFont
+		font-size rem(23)
+
+.icon-call
+	margin 4px 7px 0 0
+	size(16px)
+	fill headerColor
+	vertical-align top
+	
+.social-icons
+	text-align center
+	vertical-align top
+
+.icon-twitter
+	size(18px,15px)
+	fill orangeColor
+
+.icon-facebook
+	size(14px,22px)
+	fill blueColor
+	
+.icon-google-plus
+	size(16px,18px)
+	fill blueColor
+	
+.icon-linkedin
+	size(16px)
+	fill blueColor

@@ -1,0 +1,155 @@
+header
+	position relative
+
+	.header-container
+		display flex
+		justify-content space-between
+		flex-wrap wrap
+		width 100%
+		max-width 1154px
+		margin 0 auto
+		padding 23px 0
+		background-color #fff
+		z-index 4
+		
+ul.nav
+	li
+		display inline-block
+		margin-right 5px
+		
+		a
+			display block
+			padding 12px 21px
+			color menuTextColor
+			font-size rem(14)
+			font-family latoRegFont
+			text-transform uppercase
+			white-space nowrap
+			
+			&:hover
+				background-color orangeColor
+				color #fff
+				border-radius 1px
+			
+		
+	& ul.sandwich-menu-link
+		display none
+		width 100%
+		background-color orangeColor
+		z-index 3
+		
+		li
+			display block
+			margin 0
+			padding 0
+			border-bottom 1px solid #fff
+			
+			a
+				display block
+				padding 12px 21px
+				color #fff
+				
+				&:hover
+					font-size rem(16)
+					color #fff
+					transition all .5s
+
+/*Sandwich menu*/
+
+.sandwich-menu
+	position relative
+	display none
+	width 41px
+	height 38px
+	margin 10px
+	border 1px solid blueColor
+	border-radius 5px
+	cursor pointer
+	
+	& span
+		position absolute
+		display block
+		width 70%
+		height 4px
+		background-color blueColor
+		border-radius 2px
+		opacity 1
+		transition all 0.5s
+		
+	& span:last-child
+		margin-bottom 0
+		
+	.sandwich-menu-top
+		top 6px
+		left 6px
+	.sandwich-menu-middle
+		top 16px
+		left 6px
+	.sandwich-menu-bottom
+		top 26px
+		left 6px
+
+	&.active
+		.sandwich-menu-top
+			opacity 0
+		.sandwich-menu-middle
+			top 16px
+			left 6px
+			transform rotate(44deg)
+		.sandwich-menu-bottom
+			top 16px
+			left 6px
+			transform rotate(-45deg)
+
+/*Sandwich menu end*/
+
+.banner
+	width 100%
+	max-width 1700px
+	margin 0 auto
+	padding 104px 0 345px
+	background-color blueColor
+	text-align center
+	
+.banner-title h1
+	margin-bottom 15px
+	color #fff
+	font-family gothamFont
+	font-size rem(35)
+	
+.banner-desc
+	margin-bottom 36px
+	color #fff
+	font-family mainFont
+	font-size rem(13)
+	
+.request
+	input
+		margin-right 10px
+		padding 18px 42px
+		border none
+		border-radius 2px
+		color iconDescTextColor
+		font-family mainFont
+		font-size rem(14)
+		
+		&[type=submit]
+			background-color orangeColor
+			color #fff
+			text-transform uppercase
+			cursor pointer
+			
+	.icon
+		position absolute
+		top 18px
+		left 18px
+		size(15px)
+		fill iconDescTextColor
+		z-index 2
+		
+.name,
+.email,
+.quote,
+.btn-request
+	position relative
+	display inline-block

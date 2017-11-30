@@ -1,0 +1,26 @@
+header
+	.header-container#fixmenu
+		img(src="../static/img/content/logo.png" width="50" height="48" alt="logo").logo
+		.sandwich-menu
+			span.sandwich-menu-top
+			span.sandwich-menu-middle
+			span.sandwich-menu-bottom
+		include ../modules/menu
+	.banner
+		.banner-container
+			.banner-title
+				h1 Boost up your local business
+			.banner-desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed. Lorem ipsum dolor sit.
+			form(name="request" method="post" action="").request
+				.name
+					+icon("user")
+					input(type="text", name="name" placeholder="Full Name")
+				.email
+					+icon("envelope")
+					input(type="email", name="email" placeholder="Email Adress")
+				.quote
+					+icon("call")
+					input(type="tel", name="phone" placeholder="Phone Number")
+				.btn-request
+					input(type="submit", name="submit" value="Request a quote")
+	include ../modules/slider
